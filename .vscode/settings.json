@@ -1,8 +1,5 @@
 {
     "files.exclude": {
-        "**/.git": true,
-        "**/.github": true,
-        "**/.firebase": true,
         "firebase-debug.log": true,
         ".firebaserc": true,
         "firebase.json": true,
