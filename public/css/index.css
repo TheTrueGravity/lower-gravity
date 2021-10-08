@@ -1,0 +1,39 @@
+body {
+    background-color: #25282b;
+    min-width: 1600px;
+    min-height: 720px;
+}
+
+#pages {
+    background-color: #303438;
+    height: 40px;
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 10rem;
+}
+
+.page {
+    -webkit-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+    background-color: #00000000;
+
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font: status-bar;
+    font-size: 100%;
+    position: relative;
+    /* padding: 10px; */
+    /* background-color: #3d4247; */
+    display: flex;
+}
+
+.page:hover {
+    cursor: pointer;
+    -webkit-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+    background-color: #3d4247;
+}
